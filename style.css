@@ -1,0 +1,30 @@
+header h1 {
+    text-align: center;
+    padding: 80px;
+}
+
+body {
+    text-align: center;
+}
+
+#view-display {
+    float: left;
+    color: blue;
+}
+
+#timer-display {
+    float:right;
+}
+
+.btn-styles {
+    background-color: blue;
+    color: white;
+}
+
+#quiz-complete-page {
+    display: none;
+}
+
+#quiz-highscore-page {
+    display: none;
+}

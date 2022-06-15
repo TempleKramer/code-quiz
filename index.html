@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div <a href="#quiz-highscore-page" id="view-display"</a>High Scores</div>
+
+        <div>
+            <p id="timer-display"></p>
+        </div>
+    
+        <div id="quiz-start-page">
+     <h1>Code Quiz</h1>
+     <p>Answer Coding Questions in the alloted time limit to compete for the High Score!</p>
+     <button type="button" class="btn-styles" id="start-button">Start</button>
+        </div>
+    
+    </header>
+    
+    <section class="question-section" id="question-id"></section>
+
+    <section id="quiz-complete-page" class="result-section">
+        <p id="quiz-complete-title">You have completed the Quiz!</p>
+        <p id="quiz-final-score" class="score">Final Score</p>
+        <p id="quiz-name" class="name">Enter your Name</p>
+        <input id="input-box" value="" placeholder=" ">
+        <button type="button" id="end-button" class="btn-styles">Enter your Score</button>
+    </section>
+
+    <section id="quiz-highscore-page" class="highscore-class">
+        <h1>High Scores</h1>
+        <ol id="highscore-print"></ol>
+        <button type="button" class="btn-styles" id="return-btn">Return to Start of Quiz</button>
+        <button type="button" class="btn-styles" id="clear-high-score">Clear High Score</button>
+
+
+    </section>
+
+    
+    <script src="./main.js"></script>
+</body>
+</html>
